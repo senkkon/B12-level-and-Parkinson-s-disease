@@ -25,10 +25,13 @@ Main steps:
 The `MR.r` script contains all the code we used for the MR analysis. [TwoSampleMR](https://mrcieu.github.io/TwoSampleMR/) v0.6.4 and [MR-PRESSO](https://github.com/rondolab/MR-PRESSO) v1.0 R packages were utilized. The script was implemented using Rstudio.
 
 ## Genetic Correlation
+#<<<<<<< patch-1
+#=======
 
-The `LDSC.sh` script provides the complete workflow to calculate genetic correlation between exposure and outcome traits. This script automates the process of preparing summary statistics, munging the data for LDSC compatibility, and running the LDSC analysis to evaluate the genetic relationships between Vitamin B12 levels and Parkinson's Disease (PD) risk or age at onset.
+#The `LDSC.sh` script provides the complete workflow to calculate genetic correlation between exposure and outcome traits. This script automates the process of preparing summary statistics, munging the data for LDSC compatibility, and running the LDSC analysis to evaluate the genetic relationships between Vitamin B12 levels and Parkinson's Disease (PD) risk or age at onset.
 
-**Key Features:**
-- **Data Preparation:** Processes GWAS summary statistics to extract essential columns required for LDSC.
-- **Munge Summary Statistics:** Formats the data using `munge_sumstats.py` to ensure compatibility with LDSC.
-- **Run LDSC Analysis:** Executes `ldsc.py` to calculate genetic correlations, outputting results for further interpretation.
+#**Key Features:**
+#- **Data Preparation:** Processes GWAS summary statistics to extract essential columns required for LDSC.
+#- **Munge Summary Statistics:** Formats the data using `munge_sumstats.py` to ensure compatibility with LDSC.
+#- **Run LDSC Analysis:** Executes `ldsc.py` to calculate genetic correlations, outputting results for further interpretation.
+#>>>>>>> main
