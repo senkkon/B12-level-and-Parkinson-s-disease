@@ -6,6 +6,7 @@ In this project, we investigated the role of common and rare variants in genes r
 PATHWAY_PRS_MAIN.sh lists an example for running pathway PRS calculation for one cohort.
 a list of genes was provided and their coordinates were extracted from GENCODE.
 then we utilized PRSet feature on PRSice by providing the bed file of these genes and calculated the pathway PRS. the genotyping data was QCed. details for QC can be found in method. 
+
 META_ANALYSIS.r describes how we evaluated the effect of pathway PRS on the PD risk and made the figures.
 
 ## Rare variants analysis
